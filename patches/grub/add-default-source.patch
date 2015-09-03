@@ -1,0 +1,20 @@
+add-default-source
+
+Copyright (C) 2015 Andrew Baumhauer <andy@baumhauer.us>
+
+SPDX-License-Identifier:     GPL-2.0
+
+diff --git a/configure.ac b/configure.ac
+index 8888c2f..9614256 100644
+--- a/configure.ac	2015-09-03 15:43:51.375099914 +0000
++++ b/configure.ac	2015-09-03 15:57:08.846543666 +0000
+@@ -79,7 +79,7 @@
+ # Default HOST_CPPFLAGS
+ HOST_CPPFLAGS="$HOST_CPPFLAGS -Wall -W"
+ HOST_CPPFLAGS="$HOST_CPPFLAGS -I\$(top_builddir)/include"
+-HOST_CPPFLAGS="$HOST_CPPFLAGS -DGRUB_UTIL=1"
++HOST_CPPFLAGS="$HOST_CPPFLAGS -DGRUB_UTIL=1 -D_DEFAULT_SOURCE"
+ 
+ TARGET_CPPFLAGS="$TARGET_CPPFLAGS -Wall -W"
+ TARGET_CPPFLAGS="$TARGET_CPPFLAGS -I\$(top_srcdir)/include"
+

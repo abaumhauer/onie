@@ -1,4 +1,5 @@
 # This series applies on GIT commit 09790f53e84a6f96fdfe6a09947808d9e614886d
+add-default-source.patch
 version-string.patch
 set-default-graphics-mode-to-text.patch
 disable-build-of-documentation.patch
